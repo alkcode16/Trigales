@@ -1,0 +1,14 @@
+#exportar base de datos
+mysqldump -u root -p pasteleria > trigales-10-04-2022.sql
+
+#Borrar datos de la tabla productos_vendidos
+DELETE FROM productos_vendidos
+
+#Borrar datos de la tabla ventas
+DELETE FROM ventas
+
+#reiniciar valor de la tabla productos_vendidos
+alter table productos_vendidos AUTO_INCREMENT=1;
+
+#reiniciar valor de la tabla ventas
+alter table ventas AUTO_INCREMENT=1;

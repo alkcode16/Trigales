@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #FFCC99;
+}
+h1{
+    color: #04B404;
+    text-align: center;
+}
+
+select{
+color:  #bb8800;
+justify-content: space-between;
+padding: 5px 30px;
+margin-bottom: 15px;
+
+}
+
+.form-register{
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.form-titulo{
+    background: #04B404;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 5px solid yellow;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    justify-content: space-between;
+   font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.contenedor-inputs{
+    padding: 8px 30px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-registrar{
+    background: yellow;
+    margin: auto;
+    padding: 5px 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-registrar:active{
+    transform: scale(1.5);
+}
+
+.btn-terminar:active{
+    transform: scale(1.5);
+}
+
+.btn-terminar{
+    background: yellow;
+    margin: auto;
+    padding: 10px 60px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+a{
+text-decoration: none;
+  color: #04B404;
+  font-size: 15px;
+}
